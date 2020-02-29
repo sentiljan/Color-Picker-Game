@@ -1,0 +1,89 @@
+/*
+ * Globals
+ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Circular Std','Roboto',sans-serif;
+}
+
+h1, .H1,
+h2, .H2,
+h3, .H3,
+h4, .H4,
+h5, .H5,
+h6, .H6 {
+    margin-top: 0;
+    font-family: 'Circular Std','Roboto',sans-serif;
+    font-weight: normal;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link, a:visited, a:focus, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+header h1,h3{
+    font-family: 'Circular Std';
+    font-style: normal;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+header h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+main {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+main button {
+    margin:5px 15px;
+    width: 100px;
+    height: 30px;
+    background: #931A00;
+    border: solid 1px transparent;
+    border-radius: 7px;
+    color: #f5f5f5;
+    outline: none;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+}
+
+.circle {
+    margin: 0 40px;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border:solid 1px transparent;
+    border-radius: 60px;
+    transition:ease all 0.7s;
+    -webkit-transition:ease all 0.7s;
+    -moz-transition:ease all 0.7s;
+}
+
+main span {
+    font-size: 25px;
+}
